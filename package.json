@@ -1,8 +1,17 @@
 {
   "name": "wrkshp-animations",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "WRKSHP: React-spring example animations",
+  "author": "Mike Gagarin",
+  "license": "UNLICENSED",
+  "keywords": [
+    "paralect",
+    "workshop",
+    "wrkshp",
+    "react",
+    "hooks",
+    "react-spring"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "history": "4.10.1",
@@ -15,9 +24,6 @@
     "react-spring": "8.0.27",
     "styled-components": "5.0.0-rc.3",
     "typeface-roboto": "0.0.75"
-  },
-  "devDependencies": {
-    "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
