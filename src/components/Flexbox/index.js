@@ -1,3 +1,3 @@
-import { Flexbox } from './styles';
+import {Flexbox} from './styles';
 
 export default Flexbox;

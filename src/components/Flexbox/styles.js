@@ -1,12 +1,12 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Flexbox = styled.div`
-  display: flex;
-  justify-content: ${({ justifyContent }) => justifyContent};
-  align-items: ${({ alignItems }) => alignItems};
-  flex-direction: ${({ flexDirection }) => flexDirection};
+    display: flex;
+    justify-content: ${({justifyContent}) => justifyContent};
+    align-items: ${({alignItems}) => alignItems};
+    flex-direction: ${({flexDirection}) => flexDirection};
 
-  & > *:not(:last-child) {
-    margin-right: ${({ innerGap }) => innerGap} !important;
-  }
+    & > *:not(:last-child) {
+        margin-right: ${({innerGap}) => innerGap} !important;
+   }
 `;

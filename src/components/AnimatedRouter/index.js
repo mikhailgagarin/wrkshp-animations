@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import * as S from "./styles";
+import * as S from './styles';
 
-function AnimatedRouter({ style, children }) {
-  return <S.Page style={style}>{children}</S.Page>;
+function AnimatedRouter({style, children}) {
+    return <S.Page style={style}>{children}</S.Page>;
 }
 
 export default AnimatedRouter;
